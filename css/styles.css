@@ -65,3 +65,12 @@ html {
       font-size: 1.25rem; }
   .first-content-info .info-2 {
     font-size: 1.25rem; }
+
+.second-content-info {
+  width: 50%;
+  background-color: #ffeae2;
+  float: left; }
+
+.second-img {
+  width: 50%;
+  float: right; }
