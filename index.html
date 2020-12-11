@@ -7,10 +7,12 @@
     <meta name="author" content="stephanie vega"/>
     <title>Practice</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@200&display=swap');
+    </style>
 </head>
 <body>
     <!--Header-->
-    <div class="header">
+    <div class="header clearfix">
         <div class="principal-image">
             <img src="img/principal-img.jpg" alt="Imagen osito de peluche">
         </div>
@@ -24,7 +26,7 @@
             <div class="header-title">
                 <h1>SMILE</h1>
                 <p>it costs you nothing</p>
-            </div>            
+            </div>  
         </div>
     </div>
     <!--Main-content-1-->
@@ -32,11 +34,12 @@
         <div class="first-content">
             <div class="first-content-info">
                 <div class="info-1">
-                    <h2 class="principal-h2">The most inclusive</h2>
+                    <h2 class="title-h2">The most inclusive</h2>
                     <h2>Free PSD Template</h2>
                     <p>Free for commercial and personal use.
                     </br>
-                        You can easily edit its contents and code it for yourself or your client!</p>                   
+                        <p>You can easily edit its contents and code it for yourself or your client!</p>                   
+                    <div class="linea1"></div>
                 </div>
                 <div class="info-2">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nisi eget tortor iaculis tristique. Ali-
@@ -53,7 +56,7 @@
     </div>
     <!--Main-content-2-->
 
-    <div class="second-content clearfix">
+    <div class="second-content clearfix wrapper">
             <div class="second-content-info ">
                 <p> love people who make me
                 </br> 
@@ -68,40 +71,46 @@
                     thing in a person.</p>
                 </br>
                 <span>Audrey Hepburn</span>
+                    <ul class="circle-list">
+                        <li><div class="circle relleno"></div></li>
+                        <li><div class="circle"></div></li>
+                        <li><div class="circle"></div></li>
+                        <li><div class="circle"></div></li>
+                    </ul>
             </div>
-        <div class="second-image ">
-            <img src="img/second-img.png" alt="imagen dos personas juntas">
-        </div>
+            <img class="img-pareja"src="img/second-img.png" alt="imagen dos personas juntas">
     </div>
     <div class="wrapper">
         <!--Main-content-3-->
         <div class="third-content clearfix">
-            <div class="third-content title">
+            <div class="third-content-title">
                 <h2>Reasons to be happy</h2>
+                <div class="linea2"></div>
             </div>
-            <div class="third-content-1">
-                <div class="box1">
-                    <h5>YOU ARE ALIVE</h5>
-                    <p>Waking up to see another day is a blessing. Don't take it for granted. Make it count and be happy that you're alive</p>
-                    <span>Anonymous</span>
+            <div class="boxes">
+                <div class="third-content-1">
+                    <div class="box1">
+                        <h5>YOU ARE ALIVE</h5>
+                        <p>Waking up to see another day is a blessing. Don't take it for granted. Make it count and be happy that you're alive</p>
+                        <span>Anonymous</span>
+                    </div>
+                    <div class="box2">
+                        <h5>Enjoy the moment</h5>
+                        <p>Sometimes you will never know the true value of a moment until it becomes a memory. </p>
+                        <span>Anonymous</span>
+                    </div>
                 </div>
-                <div class="box3">
-                    <h5>someone loves you</h5>
-                    <p>Someone who really loves you sees what a mess you can be, how moody you can get, how hard you are to handle, but still wants you in their life.</p>
-                    <span>Anonymous</span>
-                </div>
-            </div>
-            <div class="third-content-2">
-                <div class="box2">
-                    <h5>Enjoy the moment<</h5>
-                    <p>Sometimes you will never know the true value of a moment until it becomes a memory. </p>
-                    <span>Anonymous</span>
-                </div>
-    
-                <div class="box4">
-                    <h5>health is wealth</h5>
-                    <p>It is health that is real wealth and not pieces of gold and silver.</p>
-                    <span>Mahatma Gandhi</span>
+                <div class="third-content-2">
+                    <div class="box3">
+                        <h5>someone loves you</h5>
+                        <p>Someone who really loves you sees what a mess you can be, how moody you can get, how hard you are to handle, but still wants you in their life.</p>
+                        <span>Anonymous</span>
+                    </div>
+                    <div class="box4">
+                        <h5>health is wealth</h5>
+                        <p>It is health that is real wealth and not pieces of gold and silver.</p>
+                        <span>Mahatma Gandhi</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,10 +122,13 @@
     <div class="fourth-content">
         <div class="wrapper">
             <div class="fourth-content-info">
-                <p>I love you for all that you are, all that you have been, 
+                <p>I love you for all that you are,
+                </br>
+                    all that you have been, 
+                </br>
                     and all you're yet to be.
                     </p>
-                <p>Quote of the day, from <a>Love Quotes</a></p>
+                <span>Quote of the day, from <a>Love Quotes</a></span>
             </div>
         </div>
     </div>
@@ -124,68 +136,91 @@
     <div class="wrapper">
     <!--Main-content-5-->
         <div class="fifth-content clearfix">
-            <div class="fifth-content title">
+            <div class="fifth-content-title">
                 <h2>Buy Poster Prints</h2>
+                <div class="linea3"></div>
             </div>
-            <div class="fifth-content-img1">
-                <img src="img/quarter-img.png" alt="imagen traje de hombre">
+            <div class="fifth-content-images">
+                <div class="fifth-content-img1">
+                    <img src="img/quarter-img.png" alt="imagen traje de hombre">
+                    <a href="#" class="buy">Buy now</a>
+                </div>
+                <div class="fifth-content-second-imgaes">
+                    <div class="img-paisaje">
+                        <img src="img/fifth-img.png" alt="imagen paisaje">
+                    </div>
+                    <img src="img/sexta-img.png" class="img-taza" alt="imagen taza de café">
+                    <img src="img/septima-img.png" class="img-hombre" alt="imagen hombre con lentes de sol">
+                </div>
             </div>
-            <div class="fifth-content-imgaes">
-                <img src="img/fifth-img.png" alt="imagen paisaje">
-                <img src="img/sexta-img.png" alt="imagen taza de café">
-                <img src="img/septima-img.png" alt="imagen hombre con lentes de sol">
             </div>
-        </div>
         <div class="principal-button">
             <a>BROWSE POSTERS</a>
         </div>
         <!--Main-content-6-->
         <div class="sixth-content clearfix">
             <div class="info1">
-                <h6>BROWSE</h6>
-                <a href="#">Home</a>
-                <a href="#">About us</a>
-                <a href="#">Categories</a>
-                <a href="#">Info</a>
-                <a href="#">Services</a>
+                <h6>Browse</h6>
+                <ul class="info-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
             </div>
             <div class="info2">
-                <h6>SHOP</h6>
-                <a href="#">Account</a>
-                <a href="#">Help & Guide</a>
-                <a href="#">Shipping & Returns</a>
-                <a href="#">FAQs</a>
+                <h6>Shop</h6>
+                <ul class="info-list">
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Help & Guide</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
             </div>
             <div class="info3">
-                <h6>CONTACT</h6>
-                <a href="#">Quotes PSD Template</a>
-                <a href="#">Rudra Street, 12354 Villa</a>
-                <a href="#">My State - My Country</a>
-                <a href="#">987658</a>
-                <a href="#">Phone: + 01 234 567 890</a>
-                <a href="#">Fax: + 01 234 567 890</a>
-                <a href="#">graphicsfuel@gmail.com</a>
+                <h6>Contact</h6>
+                <ul class="info-list">
+                    <li><a href="#">Quotes PSD Template</a></li>
+                    <li><a href="#">Rudra Street, 12354 Villa</a></li>
+                    <li><a href="#">My State - My Country</a></li>
+                    <li><a href="#">987658</a></li>
+                </br>
+                    <li><a href="#">Phone: + 01 234 567 890</a></li>
+                    <li><a href="#">Fax: + 01 234 567 890</a></li>
+                    <li><a href="#">graphicsfuel@gmail.com</a></li>
+                </ul>
             </div>
             <div class="info4">
-                <p>Get our latest news and product updates daily</p>
-                <input type="text" name="Email Adress">
-                <input type="submit" name="submit">
+                <h6>Suscribe now</h6>
+                <ul class="info-list">
+                    <li><p>Get our latest news and
+                    </br>
+                    product updates daily</p></li>
+                    <li><input type="text" name="Email Adress" placeholder="Email adress" class="input"></li>
+                    <li><button type="submit" name="submit" class="buttonSubmit">submit</button></li>
+                </ul>
             </div>
         </div>
+    </div>
         <!--Footer-->
         <div class="footer clearfix">
-            <p>2016 © Copyright - Quotes PSD Templates. All rights reserved.</p>
-            <div class="footer-logos">
-                <a href="#"><img src="img/facebook.png" alt="facebook"></a>
-                <a href="#"><img src="img/twitter.png" alt="twitier"></a>
-                <a href="#"><img src="img/in.png" alt="linkedin"></a>
-                <a href="#"><img src="img/YT.png" alt="YouTube"></a>
-                <a href="#"><img src="img/google.png" altgooglea>
-                <a href="#"><img src="img/pinterest.png" alt="pinterest"></a>
-                <a href="#"><img src="img/instagram.png" alt="instagram"></a>
-                <a href="#"><img src="img/email.png" alt="correo electrónico"></a>
+            <div class="wrapper">
+                <div class="derechos">
+                    <p>2016 © Copyright - Quotes PSD Templates. All rights reserved.</p>
+                </div>
+                <div class="footer-logos">
+                    <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="img/twitter.png" alt="twitier"></a>
+                    <a href="#"><img src="img/in.png" alt="linkedin"></a>
+                    <a href="#"><img src="img/YT.png" alt="YouTube"></a>
+                    <a href="#"><img src="img/google.png" altgooglea>
+                    <a href="#"><img src="img/pinterest.png" alt="pinterest"></a>
+                    <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="img/email.png" alt="correo electrónico"></a>
+                </div>                
+            </div>
         </div>
-    </div>
 </body>
 </html>
     
