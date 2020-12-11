@@ -351,13 +351,21 @@ html {
   .menu a {
     left: 102%; }
   .header-title h1 {
-    padding: 0 0px 0 100px; }
+    padding: 0 0px 0 100px;
+    font-size: 8rem; }
   .header-title p {
-    padding: 0 0 0 90px; }
-  .second-content .second-content-info p {
-    text-align: center; }
-  .second-content .second-content-info span {
-    text-align: center; }
+    padding: 0 0 0 12%;
+    font-size: 2rem; }
+  .second-content .second-content-info {
+    float: none; }
+    .second-content .second-content-info p {
+      text-align: center;
+      margin-left: 40%; }
+    .second-content .second-content-info span {
+      text-align: center;
+      margin-left: 50%; }
+    .second-content .second-content-info .circle-list {
+      margin-left: 55%; }
   .second-content img {
     max-width: 100%;
     width: 100%; }
@@ -374,25 +382,36 @@ html {
     height: 100%;
     float: none;
     width: 100%; }
-  .sixth-content .info3 {
-    float: none;
-    margin: 0; }
-  .sixth-content .info4 {
-    float: right;
-    margin-top: -170px;
-    margin-left: -1%; }
+  .sixth-content {
+    margin-left: 40%; }
+    .sixth-content .info3 {
+      float: none;
+      margin: 0; }
+    .sixth-content .info4 {
+      float: right;
+      margin-top: -170px;
+      margin-left: -1%; }
+  .footer .derechos {
+    margin-right: 100%; }
   .footer .logos {
     float: none;
-    width: 100%; } }
+    width: 100%; }
+    .footer .logos a {
+      display: inline; } }
 
 @media (max-width: 768px) {
   .header-title h1 {
-    padding: 0 0px 0 270px; }
+    padding: 0 0px 0 270px;
+    font-size: 5rem; }
   .header-title p {
-    padding: 0 0 0 300px; }
+    padding: 0 0 0 300px;
+    font-size: 1rem; }
   .menu a {
     left: 145%; }
   .second-content {
     margin-bottom: 1%; }
   .sixth-content .info1 {
+    float: none; }
+  .sixth-content .info4 {
+    margin-top: 1%;
     float: none; } }
