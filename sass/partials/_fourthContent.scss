@@ -1,0 +1,29 @@
+.fourth-content{
+    background-image: url('../img/third-img.jpg');
+    background-repeat: no-repeat;
+    margin-top: 140px;
+    height: 661px;
+    max-width: 100%;
+    margin-bottom: 105px;
+}
+.fourth-content-info{
+    p{
+        padding-top:255px;
+        padding-left: 13%;
+        text-align: center;
+        line-height:3rem;
+        font-size:3rem;
+        color: $blanco;
+        margin-bottom:7%;
+    }
+    span{
+        color: $blanco;
+        font-size:1rem;
+        font-family:$font1;
+        margin-left:53%;
+        margin-bottom: 10%;
+        a{
+            text-decoration: underline;
+        }
+    }
+}

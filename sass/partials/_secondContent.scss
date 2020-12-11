@@ -1,0 +1,46 @@
+.second-content{
+    background-color:$bk-second;
+    margin: 0;
+    img{
+        max-width: 100%;
+        width:50%;
+    }
+    margin-bottom:100px;
+}
+.second-content-info{
+    width:50%;
+    float: left;
+    p{
+        font-family: $font1;
+        font-size: 1.5rem;
+        line-height:2rem;
+        font-weight: bold;
+        text-align:left;
+        padding:12% 16% 3% 8%;
+    }
+    span{
+        margin-left: 8%;
+        font-family: $font1;
+        font-size: 1.5rem;
+    }
+}
+.img-pareja{
+    float: right;
+}
+.circle {
+    width:5px;
+    height:5px;
+    background-color: $bk-second;
+    border: 3px solid $bk-third;
+    border-radius: 50%;
+    margin-left:2%;
+    margin-top:10px;
+}
+.circle-list{
+    margin-left:1%;
+    list-style: none;
+    display: flex;
+    .relleno{
+        background-color: $bk-third;
+    }
+}

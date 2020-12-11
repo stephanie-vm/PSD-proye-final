@@ -1,0 +1,32 @@
+.first-content-info{
+    text-align: center;
+    .info-1{
+        .title-h2{
+            font-weight: normal;
+            margin-bottom:29px;
+        }
+        h2{
+            font-family:$font1;
+            font-size:3rem;
+            margin-bottom:0px;
+        }
+        p{
+            font-size: 1.25rem;
+            font-family:$font1;
+            color:$negro;
+            margin-bottom:50px;
+        }
+        margin-bottom:107px;
+    }
+    .linea1{
+        height:2px;
+        max-width: 100%;
+        background-color: $negro;
+        margin: 0 650px 30px 700px;
+    }
+    .info-2{
+        font-size: 1.25rem;
+        font: family $font1;;
+        margin-bottom:70px;
+    }
+}

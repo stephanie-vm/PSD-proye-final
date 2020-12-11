@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+html{
+    font-size: 16px;
+}
+.principal-button{
+    text-align: center;
+    display: inline;
+    border: 2px solid black;
+    margin-left: 45%;
+    padding: 18px 3% 18px 3%;
+    border-radius:4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    &:hover{
+        color: white;
+        background-color: black;
+    }
+}
+.info-list{
+    list-style: none;
+}

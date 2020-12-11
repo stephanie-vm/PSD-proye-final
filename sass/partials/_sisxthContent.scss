@@ -1,0 +1,75 @@
+.sixth-content{
+    margin-left:5%;
+    margin-top: 100px;
+    h6{
+        text-align:left;
+        font-size:1rem;
+    }
+    a{
+        font-size: 1rem;
+        line-height:2rem;
+    }
+    margin-bottom: 90px;
+}
+.info1{
+    ul{
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        color: $negro;
+    }
+    float: left;
+    margin-right: 160px;
+}
+.info2{
+    float: left;
+    a{
+        text-decoration: none;
+        color: $negro;
+    }
+    ul{
+        padding: 0;
+    }
+    margin-right: 160px;
+}
+.info3{
+    float: left;
+    a{
+        text-decoration: none;
+        color: $negro;
+    }
+    ul{
+        padding: 0;
+    }
+    margin-right: 160px;
+}
+.info4{
+    float: right;
+    a{
+        text-decoration: none;
+        color: $negro;
+    }
+    ul{
+        padding: 0;
+    }
+    .input{
+        background-color: $bk-fourth;
+        border: 0;
+        padding: 6px 5%;
+        margin-bottom: 20px;
+    }
+    .buttonSubmit{
+        text-align: center;
+        display: inline;
+        border: 2px solid $negro;
+        padding:4px 6% 4px 6%;
+        border-radius:4px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        &:hover{
+            color: $blanco;
+            background-color: $negro;
+        }
+    }
+}

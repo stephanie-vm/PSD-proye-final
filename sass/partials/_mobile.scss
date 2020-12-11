@@ -1,0 +1,21 @@
+@media(max-width:768px){
+    .header-title{
+        h1{
+            padding: 0 0px 0 270px;
+        }
+        p{
+            padding: 0 0 0 300px;
+        }
+    }
+    .menu a{
+        left: 145%;
+    }
+    .second-content{
+        margin-bottom: 1%;
+    }
+    .sixth-content{
+        .info1{
+            float: none;
+        }
+    }
+}

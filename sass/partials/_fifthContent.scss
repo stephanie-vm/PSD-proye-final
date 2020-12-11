@@ -1,0 +1,42 @@
+.fifth-content{
+    margin-bottom: 100px;
+}
+.fifth-content-title{
+    h2{
+        margin-left:5%
+    }
+}
+.linea3{
+    height:2px;
+    max-width: 100%;
+    background-color: $negro;
+    margin: 0 890px 30px 45px;
+}
+.fifth-content-images{
+    margin-left:300px;
+}
+.fifth-content-img1 img{
+    float: left;
+    width:42%;
+    margin-right: 8%;
+    height:450px;
+}
+.img-paisaje img{
+    float: right;
+    width: 50%;
+    margin-bottom:60px;
+}
+.img-hombre{
+    float: right;
+    width: 23%;
+    margin-left:2%;
+    height: 210px;
+}
+.img-taza{
+    width:23%;
+    margin-right:2%;
+    height: 210px;
+}
+.buy{
+    display: none;
+}
