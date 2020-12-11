@@ -5,18 +5,26 @@
     .header-title{
         h1{
             padding: 0 0px 0 100px;
+            font-size:8rem;
         }
         p{
-            padding: 0 0 0 90px;
+            padding: 0 0 0 12%;
+            font-size:2rem;
         }
     }
     .second-content{
         .second-content-info{
+            float: none;
             p{
                 text-align:center;
+                margin-left:40%;
             }
             span{
                 text-align:center;
+                margin-left:50%;
+            }
+            .circle-list{
+                margin-left:55%;
             }
         }
         img{
@@ -41,6 +49,7 @@
         width: 100%;
     }
     .sixth-content{
+        margin-left: 40%;
         .info3{
             float: none;
             margin: 0;
@@ -52,9 +61,16 @@
         }
     }
     .footer{
+        .derechos{
+            margin-right:100%;
+        }
+    
         .logos{
             float: none;
             width: 100%;
+            a{
+                display: inline;
+            }
         }
     }
 }
