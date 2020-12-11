@@ -9,14 +9,33 @@ body {
 html {
   font-size: 16px; }
 
+.principal-button {
+  text-align: center;
+  display: inline;
+  border: 2px solid black;
+  margin-left: 45%;
+  padding: 18px 3% 18px 3%;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+  .principal-button:hover {
+    color: white;
+    background-color: black; }
+
+.info-list {
+  list-style: none; }
+
 .clearfix {
   content: "";
   clear: both;
   display: table; }
 
 .principal-image img {
-  max-width: 100%;
-  position: relative; }
+  max-width: 100%; }
+
+.principal-image {
+  position: relative;
+  margin-bottom: 87px; }
 
 .logo img {
   position: absolute;
@@ -27,10 +46,12 @@ html {
 
 .menu a {
   color: white;
-  font-size: 0.93rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.90rem;
   position: absolute;
   top: 45px;
-  left: 85%;
+  left: 90%;
   text-decoration: none; }
   .menu a:hover {
     border-top: 2px solid white;
@@ -38,39 +59,46 @@ html {
 
 .header-title h1 {
   position: absolute;
+  font-family: "Raleway", sans-serif;
   font-size: 10rem;
+  margin-bottom: 32px;
   color: white;
-  font-weight: normal;
-  left: 45%;
-  top: 45px; }
+  letter-spacing: 1.5rem;
+  left: 55%;
+  top: 100px; }
 
 .header-title p {
   position: absolute;
   color: white;
+  letter-spacing: 0.3rem;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 4rem;
-  left: 45%;
-  top: 250px; }
+  font-size: 3rem;
+  left: 55%;
+  top: 350px; }
 
 .first-content-info {
   text-align: center; }
-  .first-content-info .info-1 .principal-h2 {
-    font-weight: normal;
-    font-size: 3.75rem; }
   .first-content-info .info-1 {
-    margin-bottom: 100px; }
+    margin-bottom: 107px; }
+    .first-content-info .info-1 .title-h2 {
+      font-weight: normal;
+      margin-bottom: 29px; }
     .first-content-info .info-1 h2 {
-      font-size: 3.75rem; }
+      font-family: "Raleway", sans-serif;
+      font-size: 3rem;
+      margin-bottom: 0px; }
     .first-content-info .info-1 p {
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+      font-family: "Raleway", sans-serif;
+      color: black;
+      margin-bottom: 50px; }
+  .first-content-info .linea1 {
+    height: 2px;
+    max-width: 100%;
+    background-color: black;
+    margin: 0 650px 30px 700px; }
   .first-content-info .info-2 {
-    font-size: 1.25rem; }
-
-.second-content-info {
-  width: 50%;
-  background-color: #ffeae2;
-  float: left; }
-
-.second-img {
-  width: 50%;
-  float: right; }
+    font-size: 1.25rem;
+    font: family "Raleway", sans-serif;
+    margin-bottom: 70px; }
